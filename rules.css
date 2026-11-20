@@ -1,0 +1,44 @@
+@font-face {
+        font-family: AcmeRegular;
+        src: url(fonts/Acme-Regular.woff2);
+}
+@font-face {
+        font-family:kingthings;
+        src: url(fonts/Kingthings_Petrock.woff2);
+}
+@font-face {
+        font-family:OutfitRegular;
+        src: url(fonts/Outfit-Regular.woff2);
+}
+
+
+h1,h2{color:#344487;
+         background-color:#dab5b5;
+        font-family:AcmeRegular;
+        font-style:italic;} 
+        
+        h1{font-size: 3em}
+        h2{font-size: 2em}
+        h3 {color:rgb(165, 12, 12);
+        background-color:#dab5b5;
+        font-family:kingthings;
+        font-weight:800px;
+        font-style:italic }
+         
+         body {background-color:#6554ff;}
+
+         a:visited {color:#2b1965;}
+
+         a:hover {background-color:#007b33}
+
+         p{font-family: OutfitRegular}
+         
+
+.small {font-size:10px}
+.parent {font-size: 3em}
+.child {font-size: 2rem}
+
+#wrapper {width:800px;
+background-color:#b4d8d4;
+        margin:auto;
+        padding:30px;}
